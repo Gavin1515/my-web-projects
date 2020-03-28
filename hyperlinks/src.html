@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>源文档</title>
+    </head>
+    <body>
+        <h2 style="height: 1000px;" id="Mailing_address">被链接的片段</h2>
+        <p>Want to write us a letter? Use our <a href="#Mailing_address">mailing address</a>.</p>
+
+        <!--同源URL（同一个域名）的链接可以指定download属性指定默认下载的文件名-->
+        <a href="http://localhost:8000/test-site/images/firefox2.png"
+            download="firefox-latest-64bit-installer.exe">
+            Download Latest Firefox for Windows (64-bit) (English, US)
+        </a>
+
+        <a href="mailto:nowhere@mozilla.org,other@mozilla.org?cc=name2@rapidtables.com,other1@mozilla.org&bcc=name3@rapidtables.com,other3@mozilla.org&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+            Send mail with cc, bcc, subject and body
+          </a>
+    </body>
+</html>
